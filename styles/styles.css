@@ -119,6 +119,7 @@ body{
     font-family: 'Poppins';
     border-radius:10px;
     padding: 16px 26px;
+    
    
     
 
@@ -128,11 +129,91 @@ body{
 padding: 16px 60px ;
 }
 
-#blog a{
+#button-blog a{
     padding: 16px 78px;
     background-color: #DD0000;
     border: 1px solid #DD0000;
     color: #FFFFFF;
 }
+
+
+.blog{
+    width: 312px;
+    height: 362px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+
+}
+
+button{
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    border: 1px solid #161616;
+    border-radius:5px ;
+    padding: 2px 15px;
+    margin-top: 9px;
+    margin-left: 20px;
+}
+
+h5{
+    font-size: 18px;
+    line-height: 27px;
+    width: 272px;
+    height: 54px;
+    color: #161616;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.time-icon-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+ 
+
+}
+
+.time-icon-img span{
+    font-size: 16px;
+    color: #161616;
+    opacity: .70;
+    font-weight: 500;
+    line-height: 26px;
+   
+    
+}
+
+
+.chat-icon-img{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.chat-icon-img span{
+    font-size: 16px;
+    color: #161616;
+    opacity: .70;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.blog-icon{
+    display: flex;
+    margin-left: 20px;
+    margin-top: -10px;
+    gap: 20px;
+
+}
+
+
+
+
+
+
 
 
