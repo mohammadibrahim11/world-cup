@@ -4,7 +4,7 @@ body{
 
 /* start header section style */
 
-section{
+.header-section{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,7 +46,7 @@ section{
     
 }
 
-a{
+.header-section-button a{
     text-decoration:none;
     font-size: 16px;
     font-weight: 500;
@@ -84,6 +84,55 @@ a{
 
 }
 
+/* header section style end */
 
+/* main section start */
+
+
+.main-section-one-button-style{
+    width: 312px;
+    height: 312px;
+    background-color: #161616;
+    border-radius: 10px;
+}
+
+.button-style{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+    padding-top: 50px;
+    
+
+}
+
+.button a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 30px;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    color: #161616;
+    font-weight: 500;
+    font-family: 'Poppins';
+    border-radius:10px;
+    padding: 16px 26px;
+   
+    
+
+}
+
+#all-group a{
+padding: 16px 60px ;
+}
+
+#blog a{
+    padding: 16px 78px;
+    background-color: #DD0000;
+    border: 1px solid #DD0000;
+    color: #FFFFFF;
+}
 
 
