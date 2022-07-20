@@ -158,6 +158,16 @@ button{
 }
 
 
+.upcoming-match-all-blogs{
+     width: 999px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 20px;
+    row-gap: 17px;
+   
+
+}
+
 .upcoming-match-blog-style{
     border: 1px solid gray;
     border-radius: 5px;
