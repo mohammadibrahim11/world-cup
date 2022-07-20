@@ -157,19 +157,42 @@ button{
     margin-left: 20px;
 }
 
+/* .main-section-blog{
+    width: 1321px;
+
+} */
+
+.main-section{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 130px;
+    
+}
+
+.main-section-blog{
+    width: 1321px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 
 .upcoming-match-all-blogs{
      width: 999px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    column-gap: 20px;
+    align-items: center;
     row-gap: 17px;
+    column-gap: 20px;
+    margin-left: 25px;
+
    
 
 }
 
 .upcoming-match-blog-style{
-    border: 1px solid gray;
+    border: 1px solid rgb(216, 208, 208);
+    
     border-radius: 5px;
     width: 312px;
     height: 242px;
@@ -215,7 +238,7 @@ button{
 
 .match-date-time{
     font-size: 16px;
-    color: #4D4D4D;
+    color: #948e8e;
     line-height: 20px;
     text-align: center;
     font-weight: 400px;
