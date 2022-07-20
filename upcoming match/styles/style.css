@@ -9,6 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 .header-section-background-style{
@@ -61,6 +62,12 @@ body{
     
    
 }
+
+.header-section-button :hover{
+    color: #161616;
+   
+   
+  }
 
 .fa-thin{
     position: relative;
