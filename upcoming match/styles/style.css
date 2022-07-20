@@ -300,15 +300,11 @@ hr{
     font-size: 42px;
     color: #E8E8E8;
     padding: 10px;
-    margin-bottom: -15px;
+    margin-top: -15px;
    
   
 }
 
 .fa-brands:hover{
     color: #B9B9B9 ;
-}
-
-.social-icon{
-    margin-top: -50px;
 }
