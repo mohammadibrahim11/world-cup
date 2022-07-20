@@ -47,7 +47,11 @@ body{
     
 }
 
+
+
 .header-section-button a{
+    width: 187px;
+    height: 56px;
     text-decoration:none;
     font-size: 16px;
     font-weight: 500;
@@ -57,10 +61,10 @@ body{
     padding: 16px 25px;
     border-radius: 5px;
     color: #FFFFFF;
-
     
-   
+  
 }
+
 
 .fa-greater-than{
     position: relative;
@@ -71,9 +75,18 @@ body{
     margin-top: 10px ;
     padding-top: 30px;
     padding-left:px;
+ 
 
    
 }
+
+ .header-section-button :hover{
+  color: #161616;
+ 
+ 
+}
+
+ 
 
 .header-section-img{
    justify-content: center;
