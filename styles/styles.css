@@ -62,11 +62,15 @@ body{
    
 }
 
-.fa-thin{
-    font-size: 20px;
-    margin-top: 7px ;
+.fa-greater-than{
+    position: relative;
+    top: 5px;
+    width: 24px;
+    height: 24px;
+    font-size: 30px;
+    margin-top: 10px ;
     padding-top: 30px;
-    padding-left: 10px;
+    padding-left:px;
 
    
 }
