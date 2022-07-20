@@ -72,6 +72,8 @@ body{
 }
 
 .header-section-img{
+   justify-content: center;
+
     width: 581px;
     height: 613px;
     margin-top: 33px;
@@ -81,9 +83,8 @@ body{
 
 .header-section-background-style{
     display: flex;
-    justify-content: center;
-
 }
+ 
 
 /* header section style end */
 
