@@ -215,15 +215,29 @@ h5{
     width: 999px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 20px;
+    row-gap: 17px;
+    column-gap: 20px;
+    margin-left: 25px;
+
+   
    
 }
 
-.main-section-blog{
+.main-section{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
 
 }
+
+.main-section-blog{
+    width:1321px;
+    display: flex;
+    justify-content:space-evenly;
+    }
+
+
 
 
 
