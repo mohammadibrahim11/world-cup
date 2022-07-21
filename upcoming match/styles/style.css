@@ -343,14 +343,14 @@ color: #FFFFFF;
 
     .upcoming-match-all-blogs{
         width: 100%;
-       margin-left: 25px;
+       
     }
 
     
 
     .upcoming-match-all-blogs{
-        grid-template-columns: repeat(1,1fr);
-        align-self: center;
+      grid-template-columns: repeat(1,1fr);
+      align-self:center ;
        
     }
 
@@ -393,19 +393,25 @@ color: #FFFFFF;
 
    
 
-    .upcoming-match-all-blogs{
-        align-items: center;
-    }
-
+   
 
       
 
 
    .upcoming-match-all-blogs{
+    width: 50%;
+   align-items: center;
+   align-self: center;
+  display: grid;justify-content: space-evenly;
+  grid-template-columns: repeat(2,1fr);
+  margin-right: 55px;
       
-       grid-template-columns: repeat(2,1fr);
-       align-self: center;
-       margin-right: 35px;
+  
+
+
+      
+       
+      
        
    }
 
@@ -434,6 +440,7 @@ color: #FFFFFF;
    #ag{
     padding: 16px 49px;
    }
+}
 /* main section style end */
 
 /* start footer section style */
@@ -514,3 +521,5 @@ color: #FFFFFF;
 
       
     }
+
+
