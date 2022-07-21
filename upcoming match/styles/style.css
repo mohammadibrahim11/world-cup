@@ -5,30 +5,41 @@ body{
 
 /* start header section style */
 
-.header-section{
+
+.header-container{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-}
-
-.header-section-background-style{
-    width: 1321px;
-    height: 646px;
+    max-width: 70%;
+    margin: 0 auto;
     background-color: #161616;
-    border-radius: 30px;
+    border: 1px solid #161616;
+    border-radius: 20px;
+}
+
+.header-description{
+   display: flex;
+   flex-direction: column;
+   align-self: center;
   
+   }
+
+   #header-margin{
+    margin: 50px;
+   }
+
+.header-container .header-description{
+    width: 50%;
+    
 }
 
-.header-left-section{
- width: 531px;
- height: 424px;
- margin-left: 85px;
- margin-top: 68px;
-
+.header-description img{
+    width: 100%;
+    padding-bottom: -80px;
+   
 }
 
-.header-section-content h1{
+
+
+.header-description h1{
     font-size: 70px;
     font-family: 'Poppins';
     font-weight: 700;
@@ -37,7 +48,7 @@ body{
     color: #FFFFFF;
 }
 
-.header-section-paragraph{
+.header-description p{
     font-style: normal;
     font-family: 'Poppins';
     font-size: 16px;
@@ -45,55 +56,36 @@ body{
     font-weight: 700;
     color: #FFFFFF;
     margin-top: -32px;
-    
+    margin-bottom: 40px;
 }
 
-.header-section-button a{
+.header-button a{
     text-decoration:none;
-    font-size: 18px;
-    font-weight: 500;
-    font-style: normal;
-    font-family: 'Poppins';
-    background-color: #DD0000;
-    padding: 16px 25px;
-    border-radius: 5px;
-    color: #FFFFFF;
+font-size: 18px;
+font-weight: 500;
+font-style: normal;
+font-family: 'Poppins';
+background-color: #DD0000;
+padding: 16px 25px;
+border-radius: 5px;
+color: #FFFFFF;
 
+}
+
+@media screen and (max-width:576px) {
+
+    .header-container{
+        flex-direction: column;
+    }
+
+     .header-container .header-description{
+        width: 100%;
+    }
+
+    .header-description{
+        text-align: center;
+    }
     
-   
-}
-
-.header-section-button :hover{
-    color: #161616;
-   
-   
-  }
-
-.fa-thin{
-    position: relative;
-    width: 24px;
-    height: 24px;
-    top: 4px;
-    font-size: 30px;
-    margin-top: 7px ;
-    padding-top: 30px;
-    padding-left: 10px;
-
-   
-}
-
-.header-section-img{
-   justify-content: center;
-
-    width: 581px;
-    height: 613px;
-    margin-top: 33px;
-    margin-left: 45px;
-
-}
-
-.header-section-background-style{
-    display: flex;
 }
 
 /* header section style end */
