@@ -90,6 +90,22 @@ color: #FFFFFF;
     
 }
 
+
+@media  screen and (min-width:577px)  and (max-width:768px) {
+
+    .header-container {
+        width: 70%;
+       
+    }
+
+    .header-container .header-description{
+        width: 100%;
+    }
+    
+
+
+}
+
 /* header section style end */
 
 
@@ -295,6 +311,20 @@ button{
     }
 
     
+    
+}
+
+@media screen and (min-width:577px) and (max-width:768px) {
+
+    .main-container{
+        flex-direction: column;
+        
+    }
+
+    .button a, .all-group a, .button-blog a{
+        display:inline-block;
+        
+    }
     
 }
 
