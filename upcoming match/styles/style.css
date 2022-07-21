@@ -208,8 +208,14 @@ color: #FFFFFF;
     
     #bt{
         padding: 16px 76px;
+        background-color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+    }
+    #hover{
+        color: #161616;
         background-color: #DD0000;
-        border: 1px solid #DD0000;
+        border: 1px solid #DD0000 ;
+
     }
     
    
