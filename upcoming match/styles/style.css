@@ -307,7 +307,7 @@ button{
     .upcoming-match-all-blogs{
         grid-template-columns: repeat(1,1fr);
         align-self: center;
-        /* margin-left: -8px; */
+       
     }
 
     
