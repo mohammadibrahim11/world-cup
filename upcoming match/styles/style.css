@@ -84,6 +84,7 @@ color: #FFFFFF;
 
     .header-description{
         text-align: center;
+        align-self: center;
     }
     
 }
